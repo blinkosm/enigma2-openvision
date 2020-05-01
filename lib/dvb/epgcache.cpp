@@ -28,9 +28,9 @@
 #include <dvbsi++/descriptor_tag.h>
 
 /* Interval between "garbage collect" cycles */
-#define CLEAN_INTERVAL 60000    //  1 min
+#define CLEAN_INTERVAL 600    //  1 min
 /* Restart EPG data capture */
-#define UPDATE_INTERVAL 5000  // 1 min
+#define UPDATE_INTERVAL 600  // 1 min
 /* Time to wait after tuning in before EPG data capturing starts */
 #define ZAP_DELAY 2000          // 2 sec
 
